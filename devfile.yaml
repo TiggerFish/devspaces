@@ -22,6 +22,24 @@ projects:
         origin: 'https://gitlab.com/discomb/obulated/deploy-wordpress.git'
       checkoutFrom:
         revision: main
+  - name: pipelines
+    git:
+      remotes:
+        origin: 'https://gitlab.com/discomb/obulated/pipelines.git'
+      checkoutFrom:
+        revision: main
+  - name: wp-frontend
+    git:
+      remotes:
+        origin: 'https://gitlab.com/discomb/obulated/wp-frontend.git'
+      checkoutFrom:
+        revision: main
+  - name: testing
+    git:
+      remotes:
+        origin: 'https://gitlab.com/ocp4-pipelines/testing.git'
+      checkoutFrom:
+        revision: main
 components:
   - attributes:
       controller.devfile.io/merge-contribution: true
