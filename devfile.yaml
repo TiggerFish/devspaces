@@ -16,7 +16,7 @@ attributes:
         params: >-
           storageType=per-user&url=https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/dashboard/devfile-registry/devfiles/empty.yaml
 commands:
-  - name: clone
+  - id: clone
     exec:
       component: git
       commandLine: git clone 'git@gitlab.com:ocp4-pipelines/testing.git'
