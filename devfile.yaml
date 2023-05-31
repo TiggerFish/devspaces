@@ -29,14 +29,17 @@ projects:
       checkoutFrom:
         revision: main
   - name: wp-frontend
+    git:
       remotes:
         origin: 'git@gitlab.com:discomb/obulated/wp-frontend.git'
-      revision: main
+      checkoutFrom:
+        revision: main
   - name: testing
     git:
       remotes:
         origin: 'git@gitlab.com:ocp4-pipelines/testing.git'
-      revision: main
+      checkoutFrom:
+        revision: main
 components:
   - attributes:
       controller.devfile.io/merge-contribution: true
