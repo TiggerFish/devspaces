@@ -16,28 +16,10 @@ attributes:
         params: >-
           storageType=per-user&url=https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/dashboard/devfile-registry/devfiles/empty.yaml
 projects:
-  - name: deploy-wordpress
+  - name: petclinic
     git:
       remotes:
-        origin: 'git@gitlab.com:discomb/obulated/deploy-wordpress.git'
-      checkoutFrom:
-        revision: main
-  - name: pipelines:
-    git:
-      remotes:
-        origin: 'git@gitlab.com:discomb/obulated/pipelines.git'
-      checkoutFrom:
-        revision: main
-  - name: wp-frontend
-    git:
-      remotes:
-        origin: 'git@gitlab.com:discomb/obulated/wp-frontend.git'
-      checkoutFrom:
-        revision: main
-  - name: testing
-    git:
-      remotes:
-        origin: 'git@gitlab.com:ocp4-pipelines/testing.git'
+        origin: 'https://github.com/spring-projects/spring-petclinic.git'
       checkoutFrom:
         revision: main
 components:
