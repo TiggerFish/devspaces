@@ -19,7 +19,7 @@ projects:
   - name: deploy-wordpress
     git:
       remotes:
-        origin: 'git@gitlab.com:discomb/obulated/deploy-wordpress.git'
+        origin: 'https://gitlab.com/discomb/obulated/deploy-wordpress.git'
       checkoutFrom:
         revision: main
 components:
