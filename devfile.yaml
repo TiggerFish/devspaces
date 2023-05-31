@@ -16,6 +16,13 @@ attributes:
         params: >-
           storageType=per-user&url=https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/dashboard/devfile-registry/devfiles/empty.yaml
 projects:
+  - name: my-workspace
+    git:
+      remotes:
+        origin: 'https://gitlab.com/ocp4-pipelines/my-workspace.git'
+      checkoutFrom:
+        revision: main
+
   - name: deploy-wordpress
     git:
       remotes:
