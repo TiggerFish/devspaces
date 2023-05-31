@@ -15,13 +15,12 @@ attributes:
       factory:
         params: >-
           storageType=per-user&url=https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/dashboard/devfile-registry/devfiles/empty.yaml
-projects:
-  - name: deploy-wordpress
-    git:
-      remotes:
-        origin: 'git@gitlab.com:discomb/obulated/deploy-wordpress.git'
-      checkoutFrom:
-        revision: main
+commands:
+  - name: clone
+    exec:
+      component: git
+      commandLine: git clone 'git@gitlab.com:ocp4-pipelines/testing.git'
+      workingDir: /projects
 components:
   - attributes:
       controller.devfile.io/merge-contribution: true
