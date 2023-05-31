@@ -1,0 +1,1 @@
+https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/devfile.yaml
