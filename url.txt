@@ -1,1 +1,4 @@
 https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/devfile.yaml
+
+
+https://console-openshift-console.apps.sandbox-m3.1530.p1.openshiftapps.com/k8s/cluster/projects
