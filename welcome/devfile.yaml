@@ -9,7 +9,7 @@ projects:
       checkoutFrom:
         revision: main
 commands:
-  - id: 01- Create Teamplate
+  - id: 01 Create Teamplate
     exec:
       component: universal-developer-image
       commandLine: echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > .git-credentials
