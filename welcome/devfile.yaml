@@ -9,10 +9,10 @@ projects:
       checkoutFrom:
         revision: main
 commands:
-  - id: first-command
+  - id: 01-create-template
     exec:
       component: universal-developer-image
-      commandLine: echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > .git-credentials
+      commandLine: cd /home/user && echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > .git-credentials
 components:
   - name: universal-developer-image
     container:
