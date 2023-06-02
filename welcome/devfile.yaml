@@ -13,6 +13,10 @@ commands:
     exec:
       component: universal-developer-image
       commandLine: cd /home/user && echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > .git-credentials
+  - id: 02-edit-template
+    exec:
+      component: universal-developer-image
+      commandLine: vi /home/user/.git-credentials
 components:
   - name: universal-developer-image
     container:
