@@ -16,7 +16,7 @@ commands:
   - id: 02-edit-template
     exec:
       component: universal-developer-image
-      commandLine: vi /home/user/.git-credentials
+      commandLine: bash welcome/create-secret.sh
 components:
   - name: universal-developer-image
     container:
