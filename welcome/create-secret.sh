@@ -7,11 +7,12 @@ if [ -f welcome/git-credentials ]; then
   oc get secret git-credentials-secret > /dev/null 2>&1
   if [ $? -eq 0 ]; then
     echo "Secret exists, will replace with new values"
-    oc replace secret generic git-credentials-secret --from-file=credentials=welcome/git-credentials
-  else
-     echo "Creating secret"
-     oc create secret generic git-credentials-secret --from-file=credentials=welcome/git-credentials
+    oc delete secret git-credentials-secret
+    echo 
   fi
+  echo "Creating new secret"
+  oc create secret generic git-credentials-secret --from-file=credentials=welcome/git-credentials
+  echo 
   /bin/rm welcome/git-credentials
   oc label secret git-credentials-secret controller.devfile.io/git-credential='true'
   oc label secret git-credentials-secret controller.devfile.io/watch-secret='true'
