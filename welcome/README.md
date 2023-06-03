@@ -13,6 +13,11 @@
 
 ![open terminal][def3]
 
+6. Run a task in that terminal
+
+![run task][def4]
+
 [def]: https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/welcome/devfile.yaml
 [def2]: ./images/trustauthors.jpg
 [def3]: ./images/openterminal.jpg
+[def4]: ./images/runtask.jpg
