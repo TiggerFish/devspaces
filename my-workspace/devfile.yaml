@@ -1,0 +1,40 @@
+schemaVersion: 2.2.0
+metadata:
+  name: my-workspace
+projects:
+  - name: my-workspace
+    git:
+      remotes:
+        origin: 'https://gitlab.com/ocp4-pipelines/my-workspace.git'
+      checkoutFrom:
+        revision: main
+
+  - name: deploy-wordpress
+    git:
+      remotes:
+        origin: 'https://gitlab.com/discomb/obulated/deploy-wordpress.git'
+      checkoutFrom:
+        revision: main
+  - name: pipelines
+    git:
+      remotes:
+        origin: 'https://gitlab.com/discomb/obulated/pipelines.git'
+      checkoutFrom:
+        revision: main
+  - name: wp-frontend
+    git:
+      remotes:
+        origin: 'https://gitlab.com/discomb/obulated/wp-frontend.git'
+      checkoutFrom:
+        revision: main
+  - name: testing
+    git:
+      remotes:
+        origin: 'https://gitlab.com/ocp4-pipelines/testing.git'
+      checkoutFrom:
+        revision: main
+components:
+  - container:
+      image: registry.redhat.io/devspaces/udi-rhel8@sha256:bc9d5980a78f0c8b9eb5a20368514ced3dc6e5d99d286cb2e67266b1eb522b94
+      sourceMapping: /projects
+    name: universal-developer-image
