@@ -12,7 +12,9 @@ commands:
   - id: 01-Create-Template
     exec:
       component: universal-developer-image
-      commandLine: echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > welcome/git-credentials
+      commandLine: |
+        echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > welcome/git-credentials
+        echo "Please edit welcome/git-credentials, replacing XXXXXXXX with your git PAT"
   - id: 02-Create-Secret
     exec:
       component: universal-developer-image
