@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -f welcome/git-credentials ]; then
-  if grep XXXXXX welcome/git-credentials; then
+  if grep XXXXXXXX welcome/git-credentials; then
     echo " welcome/git-credentials file has not been updated with the PAT or saved since the update"
     exit 1
   fi
