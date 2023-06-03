@@ -9,11 +9,11 @@ projects:
       checkoutFrom:
         revision: main
 commands:
-  - id: 01-create-template
+  - id: 01-Create-Template
     exec:
       component: universal-developer-image
       commandLine: echo "https://$(oc whoami):XXXXXXXX@gitlab.com" > welcome/git-credentials
-  - id: 02-edit-template
+  - id: 02-Create-Secret
     exec:
       component: universal-developer-image
       commandLine: bash welcome/create-secret.sh
