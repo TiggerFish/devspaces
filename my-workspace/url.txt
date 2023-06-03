@@ -10,7 +10,7 @@ rh-subs contains subscription registration key and ORGID
 
 
 
-https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/devfile.yaml
+https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/my-workspace/devfile.yaml
 
 
 https://console-openshift-console.apps.sandbox-m3.1530.p1.openshiftapps.com/k8s/cluster/projects
