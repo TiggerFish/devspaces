@@ -4,7 +4,7 @@
 
 1. Get yourself on a terminal server, this will make things easier in the long run.
 2. Create a Personal Access Token (PAT) on the git server, keep the page open for now.
-3. Open the [DevSpaces][def] [Link][def]
+3. Open the [DevSpaces][def] [Link][def] in a new tab.
 4. When the workspace opens choose to "Trust the Authors"
 
 ![trust authors][def2]
