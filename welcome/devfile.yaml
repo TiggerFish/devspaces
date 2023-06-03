@@ -9,11 +9,11 @@ projects:
       checkoutFrom:
         revision: main
 commands:
-  - id: 01-Create-Template
+  - id: 01-create-template
     exec:
       component: universal-developer-image
       commandLine: bash welcome/create-template.sh
-  - id: 02-Create-Secret
+  - id: 02-create-secret
     exec:
       component: universal-developer-image
       commandLine: bash welcome/create-secret.sh
