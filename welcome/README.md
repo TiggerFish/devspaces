@@ -17,7 +17,24 @@
 
 ![run task][def4]
 
+7. In the "Select the task to run" dialogue select the devfile  folder
+
+![select devfile folder][def5]
+
+8. Then select the 01-create-template task.
+
+![select 01-create-template task][def6]
+
+9. Observe the terminal output and ensure no errors.
+
+![01-create-template job output][def7]
+
+
+
 [def]: https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/welcome/devfile.yaml
 [def2]: ./images/trustauthors.jpg
 [def3]: ./images/openterminal.jpg
 [def4]: ./images/runtask.jpg
+[def5]: ./images/selectdevfile.jpg
+[def6]: ./images/select01-create-template.jpg
+[def7]: ./images/01-create-template-output.jpg
