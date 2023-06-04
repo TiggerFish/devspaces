@@ -15,7 +15,7 @@
 
 6. Run a task in that terminal
 
-![run task][def4]
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/runtask.png width=40% height=40% alt="Run Task" title="Run Task">
 
 7. In the "Select the task to run" dialogue select the devfile  folder
 
