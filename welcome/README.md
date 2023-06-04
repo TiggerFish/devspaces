@@ -11,7 +11,7 @@
 
 5. Open a terminal in the DevSpace
 
-<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/opentermainl.png width=40% height=40% alt="Open Terminal" title="Open Terminal">
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/openterminal.png width=40% height=40% alt="Open Terminal" title="Open Terminal">
 
 6. Run a task in that terminal
 
