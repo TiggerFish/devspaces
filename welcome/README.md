@@ -9,7 +9,7 @@
 
 ![trust authors][def2]
 
-<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/trustauthors-large.png width=50% height=50% alt="Trust Authors">
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/trustauthors-large.png width=40% height=40% alt="Trust Authors" title="Trust Authors">
 
 5. Open a terminal in the DevSpace
 
