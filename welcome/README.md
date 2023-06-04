@@ -5,13 +5,13 @@
 1. Get yourself on a terminal server, this will make things easier in the long run.
 2. Create a Personal Access Token (PAT) on the git server, keep the page open for now.
 3. Open the [DevSpaces][def] [Link][def] in a new tab.
-4. When the DevSpace opens you may be prompted to Trust the Authors. Put a tick in the box to trust the authors of the files in the parent folder '/projects' and select "Yes, I trust the authoers"
+4. When the DevSpace opens you may be prompted to Trust the Authors. Put a tick in the box to trust the authors of the files in the parent folder '/projects' and select "Yes, I trust the authors"
 
-<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/trustauthors-large.png width=40% height=40% alt="Trust Authors" title="Trust Authors">
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/trustauthors.png width=40% height=40% alt="Trust Authors" title="Trust Authors">
 
 5. Open a terminal in the DevSpace
 
-![open terminal][def3]
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/opentermainl.png width=40% height=40% alt="Open Terminal" title="Open Terminal">
 
 6. Run a task in that terminal
 
