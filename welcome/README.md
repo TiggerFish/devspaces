@@ -19,15 +19,15 @@
 
 7. In the "Select the task to run" dialogue select the devfile  folder
 
-![select devfile folder][def5]
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/selectdevfile.png width=40% height=40% alt="Select the devfile folder" title="Select the devfile folder">
 
 8. Then select the 01-create-template task.
 
-![select 01-create-template task][def6]
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/select01-create-template.png width=40% height=40% alt="Select task 01-create-template" title="Select task 01-create-template">
 
 9. Observe the terminal output and ensure no errors.
 
-![01-create-template job output][def7]
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/01-create-template-output.png width=40% height=40% alt="01-create-template task output" title="01-create-template task output">
 
 10. Follow the instructions in the output. Editing the newly created git-credentials file in the welcome foder replacing the XXXXXXXX with the content of the PAT token from the git provider and save the file.
 11. Run the devfile/02-create-secret task in the terminal
