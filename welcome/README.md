@@ -9,6 +9,8 @@
 
 ![trust authors][def2]
 
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/trustauthors-large.png width=50% height=50% alt="Trust Authors">
+
 5. Open a terminal in the DevSpace
 
 ![open terminal][def3]
@@ -28,6 +30,9 @@
 9. Observe the terminal output and ensure no errors.
 
 ![01-create-template job output][def7]
+
+10. Follow the instructions in the output. Editing the newly created git-credentials file in the welcome foder replacing the XXXXXXXX with the content of the PAT token from the git provider and save the file.
+11. Run the devfile/02-create-secret task in the terminal
 
 
 
