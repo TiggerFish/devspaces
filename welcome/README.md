@@ -7,8 +7,6 @@
 3. Open the [DevSpaces][def] [Link][def] in a new tab.
 4. When the workspace opens choose to "Trust the Authors"
 
-![trust authors][def2]
-
 <img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/trustauthors-large.png width=40% height=40% alt="Trust Authors" title="Trust Authors">
 
 5. Open a terminal in the DevSpace
@@ -37,7 +35,6 @@
 
 
 [def]: https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#/https://raw.githubusercontent.com/TiggerFish/devspaces/main/welcome/devfile.yaml
-[def2]: ./images/trustauthors.jpg
 [def3]: ./images/openterminal.jpg
 [def4]: ./images/runtask.jpg
 [def5]: ./images/selectdevfile.jpg
