@@ -23,7 +23,7 @@
 
 8. Then select the 01-create-template task.
 
-<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/select01-create-template.png width=30% height=30% alt="Select task 01-create-template" title="Select task 01-create-template">
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/select01-create-template.png width=20% height=20% alt="Select task 01-create-template" title="Select task 01-create-template">
 
 9. Observe the terminal output and ensure no errors.
 
