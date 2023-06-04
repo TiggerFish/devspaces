@@ -27,7 +27,7 @@
 
 9. Observe the terminal output and ensure no errors.
 
-<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/01-create-template-output.png width=50% height=50% alt="01-create-template task output" title="01-create-template task output">
+<img src=https://github.com/TiggerFish/devspaces/blob/main/welcome/images/01-create-template-output.png width=60% height=60% alt="01-create-template task output" title="01-create-template task output">
 
 10. Follow the instructions in the output. Editing the newly created git-credentials file in the welcome foder replacing the XXXXXXXX with the content of the PAT token from the git provider and save the file.
 11. Run the devfile/02-create-secret task in the terminal
