@@ -1,0 +1,48 @@
+schemaVersion: 2.2.0
+metadata:
+  name: empty
+projects:
+  - name: devspaces
+    git:
+      remotes:
+        origin: 'https://github.com/TiggerFish/devspaces.git'
+      checkoutFrom:
+        revision: main
+components:
+  - name: universal-developer-image
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel8@sha256:bc9d5980a78f0c8b9eb5a20368514ced3dc6e5d99d286cb2e67266b1eb522b94
+      sourceMapping: /projects
+  - name: kube-stuff
+    inlined: |
+        apiVersion: apps/v1
+        kind: Deployment
+        metadata:
+          labels:
+            app: wp-frontend
+            app.kubernetes.io/component: wp-frontend
+            app.kubernetes.io/instance: wp-frontend
+            app.kubernetes.io/part-of: wp-frontend
+            app.openshift.io/runtime: redhat
+          name: wp-frontend
+        spec:
+          replicas: 1
+          selector:
+            matchLabels:
+              app: wp-frontend
+            type: Recreate
+          template:
+            metadata:
+              labels:
+                app: wp-frontend
+                deploymentconfig: wp-frontend
+            spec:
+              containers:
+              - image: registry.access.redhat.com/rhscl/httpd-24-rhel7:2.4-214
+                imagePullPolicy: Always
+                name: wp-frontend
+                ports:
+                - containerPort: 8443
+                  name: https
+                  protocol: TCP
+
