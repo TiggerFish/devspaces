@@ -1,0 +1,6 @@
+spec:
+  devEnvironments:
+    storage:
+      perUserStrategyPvcConfig:
+        storageClass: <STORAGE_CLASS_NAME>
+       pvcStrategy: 'per-user'
